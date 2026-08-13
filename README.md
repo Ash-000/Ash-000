@@ -72,6 +72,72 @@ too vast, no bug too deep in the desert.
 
 ---
 
+## 🪱 WORM RIDERS — CI/CD & PACKAGE THUMPERS
+
+<div align="center">
+
+*small worms, big work — call em, they come*
+
+**Workflow / CI-CD**
+<br>
+<img src="https://img.shields.io/badge/GitHub_Actions-2b1a0f?style=for-the-badge&logo=githubactions&logoColor=E8A33D"/>
+<img src="https://img.shields.io/badge/Docker-2b1a0f?style=for-the-badge&logo=docker&logoColor=E8A33D"/>
+<img src="https://img.shields.io/badge/Vercel-2b1a0f?style=for-the-badge&logo=vercel&logoColor=E8A33D"/>
+<img src="https://img.shields.io/badge/Netlify-2b1a0f?style=for-the-badge&logo=netlify&logoColor=E8A33D"/>
+
+**Package Thumpers**
+<br>
+<img src="https://img.shields.io/badge/npm-2b1a0f?style=for-the-badge&logo=npm&logoColor=E8A33D"/>
+<img src="https://img.shields.io/badge/pnpm-2b1a0f?style=for-the-badge&logo=pnpm&logoColor=E8A33D"/>
+<img src="https://img.shields.io/badge/yarn-2b1a0f?style=for-the-badge&logo=yarn&logoColor=E8A33D"/>
+<img src="https://img.shields.io/badge/Composer-2b1a0f?style=for-the-badge&logo=composer&logoColor=E8A33D"/>
+
+</div>
+
+<div align="center">
+
+```
+        .·´¯`·.
+       /  o  o  \      <-- little worm, guards the pipeline
+      |    ᴥ     |
+       \  ‾‾‾‾  /
+        `·.___.·´
+   "no build pass, no spice flow."
+```
+
+</div>
+
+---
+
+## 🪱 SANDWORM WALK — LIVE CONTRIBUTION CRAWL
+
+<div align="center">
+
+<img src="img/sandworm.gif" width="100%" alt="chibi sandworm eating contribution graph"/>
+
+</div>
+
+*(placeholder — put chibi-sandworm gif at `img/sandworm.gif`, same name, this line auto-shows it)*
+
+Workflow file sit at `.github/workflows/pacman.yml`, runs the graph-gen
+action, pushes svg to `output` branch every 12hr. Base action only draw
+pacman skin — no sandworm sprite built in. Two path forward:
+
+- **Easy:** keep pacman svg from action (`dist/pacman-contribution-graph.svg`
+  on `output` branch), embed that instead of gif — real, auto-updates,
+  not sandworm tho.
+- **Real sandworm:** fork `abozanona/pacman-contribution-graph`, swap
+  sprite assets (pac/ghost pngs) for chibi worm/ghost art, point workflow
+  `uses:` at your fork. Gives real reskinned animation, not static gif.
+
+Auto-embed of real graph (once repo public + workflow run once):
+
+```md
+![contribution graph](https://raw.githubusercontent.com/<your-username>/<your-username>/output/dist/pacman-contribution-graph.svg)
+```
+
+---
+
 ## 🏜️ EXPEDITIONS INTO THE DEEP DESERT
 
 > Edit these three to point at your real projects/links.
