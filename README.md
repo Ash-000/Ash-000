@@ -17,7 +17,7 @@
 ## 🪐 TRANSMISSION FROM ARRAKIS
 
 ```
-Long ago, men turned to computer to give them what they wanted.
+Long ago, men turned to machines to give them what they wanted.
 But this permitted the rise of the machine...
 
 I turned instead to full-stack.
@@ -27,9 +27,7 @@ Next.js renders the future before it arrives.
 NestJS holds the architecture, unbroken, like Fremen discipline.
 ```
 
-I build full products end to end — frontend to backend, database to
-deploy. Frameworks are my sietch, languages are my crysknife. No stack
-too vast, no bug too deep in the desert.
+I build full-stack digital products end-to-end — from intuitive, dynamic frontends to resilient backends, robust database architectures to automated deployment pipelines. Frameworks are my sietch, code is my crysknife. No stack too vast, no bug too deep in the desert.
 
 ---
 
@@ -44,6 +42,9 @@ too vast, no bug too deep in the desert.
 <img src="https://img.shields.io/badge/Vue.js-2b1a0f?style=for-the-badge&logo=vuedotjs&logoColor=E8A33D"/>
 <img src="https://img.shields.io/badge/JavaScript-2b1a0f?style=for-the-badge&logo=javascript&logoColor=E8A33D"/>
 <img src="https://img.shields.io/badge/TypeScript-2b1a0f?style=for-the-badge&logo=typescript&logoColor=E8A33D"/>
+<img src="https://img.shields.io/badge/TailwindCSS-2b1a0f?style=for-the-badge&logo=tailwindcss&logoColor=E8A33D"/>
+
+<br>
 
 **Backend**
 <br>
@@ -53,6 +54,8 @@ too vast, no bug too deep in the desert.
 <img src="https://img.shields.io/badge/Blade-2b1a0f?style=for-the-badge&logo=laravel&logoColor=E8A33D"/>
 <img src="https://img.shields.io/badge/Node.js-2b1a0f?style=for-the-badge&logo=nodedotjs&logoColor=E8A33D"/>
 
+<br>
+
 **Data & Cloud**
 <br>
 <img src="https://img.shields.io/badge/Supabase-2b1a0f?style=for-the-badge&logo=supabase&logoColor=E8A33D"/>
@@ -61,12 +64,15 @@ too vast, no bug too deep in the desert.
 <img src="https://img.shields.io/badge/MySQL-2b1a0f?style=for-the-badge&logo=mysql&logoColor=E8A33D"/>
 <img src="https://img.shields.io/badge/PostgreSQL-2b1a0f?style=for-the-badge&logo=postgresql&logoColor=E8A33D"/>
 
-**Tools**
+<br>
+
+**Tools & DevOps**
 <br>
 <img src="https://img.shields.io/badge/Git-2b1a0f?style=for-the-badge&logo=git&logoColor=E8A33D"/>
 <img src="https://img.shields.io/badge/Docker-2b1a0f?style=for-the-badge&logo=docker&logoColor=E8A33D"/>
 <img src="https://img.shields.io/badge/Postman-2b1a0f?style=for-the-badge&logo=postman&logoColor=E8A33D"/>
 <img src="https://img.shields.io/badge/Figma-2b1a0f?style=for-the-badge&logo=figma&logoColor=E8A33D"/>
+<img src="https://img.shields.io/badge/Linux-2b1a0f?style=for-the-badge&logo=linux&logoColor=E8A33D"/>
 
 </div>
 
@@ -76,14 +82,16 @@ too vast, no bug too deep in the desert.
 
 <div align="center">
 
-*small worms, big work — call em, they come*
+*Small worms, big work — call them, they come.*
 
-**Workflow / CI-CD**
+**Workflow & Deployment**
 <br>
 <img src="https://img.shields.io/badge/GitHub_Actions-2b1a0f?style=for-the-badge&logo=githubactions&logoColor=E8A33D"/>
 <img src="https://img.shields.io/badge/Docker-2b1a0f?style=for-the-badge&logo=docker&logoColor=E8A33D"/>
 <img src="https://img.shields.io/badge/Vercel-2b1a0f?style=for-the-badge&logo=vercel&logoColor=E8A33D"/>
 <img src="https://img.shields.io/badge/Netlify-2b1a0f?style=for-the-badge&logo=netlify&logoColor=E8A33D"/>
+
+<br>
 
 **Package Thumpers**
 <br>
@@ -94,61 +102,41 @@ too vast, no bug too deep in the desert.
 
 </div>
 
-<div align="center">
-
-```
-        .·´¯`·.
-       /  o  o  \      <-- little worm, guards the pipeline
-      |    ᴥ     |
-       \  ‾‾‾‾  /
-        `·.___.·´
-   "no build pass, no spice flow."
-```
-
-</div>
-
 ---
 
-## 🪱 SANDWORM WALK — LIVE CONTRIBUTION CRAWL
+## 🕹️ PAC-MAN & SANDWORM — LIVE CONTRIBUTION ARENA
 
 <div align="center">
 
-<img src="img/sandworm.gif" width="100%" alt="chibi sandworm eating contribution graph"/>
+### 🟡 Pac-Man Contribution Harvest
+*Chomping through the contribution matrix and harvesting the spice dots across GitHub.*
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yanhaizhou21-a11y/yanhaizhou21-a11y/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yanhaizhou21-a11y/yanhaizhou21-a11y/output/pacman-contribution-graph.svg">
+  <img alt="Pacman Contribution Graph" src="https://raw.githubusercontent.com/yanhaizhou21-a11y/yanhaizhou21-a11y/output/pacman-contribution-graph.svg" width="100%"/>
+</picture>
+
+<br>
+
+### 🪱 Dune Sandworm Contribution Crawl
+*The Great Worm rides across the Arrakis timeline.*
+
+<img src="img/sandworm.gif" width="100%" alt="Dune Sandworm Contribution Crawl"/>
 
 </div>
-
-*(placeholder — put chibi-sandworm gif at `img/sandworm.gif`, same name, this line auto-shows it)*
-
-Workflow file sit at `.github/workflows/pacman.yml`, runs the graph-gen
-action, pushes svg to `output` branch every 12hr. Base action only draw
-pacman skin — no sandworm sprite built in. Two path forward:
-
-- **Easy:** keep pacman svg from action (`dist/pacman-contribution-graph.svg`
-  on `output` branch), embed that instead of gif — real, auto-updates,
-  not sandworm tho.
-- **Real sandworm:** fork `abozanona/pacman-contribution-graph`, swap
-  sprite assets (pac/ghost pngs) for chibi worm/ghost art, point workflow
-  `uses:` at your fork. Gives real reskinned animation, not static gif.
-
-Auto-embed of real graph (once repo public + workflow run once):
-
-```md
-![contribution graph](https://raw.githubusercontent.com/<your-username>/<your-username>/output/dist/pacman-contribution-graph.svg)
-```
 
 ---
 
 ## 🏜️ EXPEDITIONS INTO THE DEEP DESERT
 
-> Edit these three to point at your real projects/links.
-
 <div align="center">
 
-| Project | Stack | Description |
-|---|---|---|
-| 🪱 **Project Name** | Next.js · NestJS · MongoDB | One-line: what it does, who it's for. |
-| 🦴 **Project Name** | Vue · Laravel · MySQL | One-line: what it does, who it's for. |
-| 💧 **Project Name** | Vite · Firebase · Supabase | One-line: what it does, who it's for. |
+| Expedition | Tech Stack | Role & Objective |
+| :--- | :--- | :--- |
+| 🪱 **Arrakis Fullstack Core** | `Next.js` · `NestJS` · `MongoDB` | High-performance enterprise platform with real-time telemetry and API gateway |
+| 🦴 **Crysknife Web Engine** | `Vue 3` · `Laravel` · `MySQL` | Modern reactive web application with robust authentication and state management |
+| 💧 **Water of Life Portal** | `Vite` · `Firebase` · `Supabase` | Ultra-fast client-side dashboard with live cloud synchronization and serverless auth |
 
 </div>
 
@@ -173,11 +161,13 @@ Auto-embed of real graph (once repo public + workflow run once):
 
 <div align="center">
 
-<a href="mailto:youremail@example.com"><img src="https://img.shields.io/badge/Email-2b1a0f?style=for-the-badge&logo=gmail&logoColor=E8A33D"/></a>
-<a href="https://linkedin.com/in/yourhandle"><img src="https://img.shields.io/badge/LinkedIn-2b1a0f?style=for-the-badge&logo=linkedin&logoColor=E8A33D"/></a>
-<a href="https://yourportfolio.com"><img src="https://img.shields.io/badge/Portfolio-2b1a0f?style=for-the-badge&logo=firefox&logoColor=E8A33D"/></a>
+<a href="mailto:yanhaizhou21@gmail.com"><img src="https://img.shields.io/badge/Email-2b1a0f?style=for-the-badge&logo=gmail&logoColor=E8A33D"/></a>
+<a href="https://github.com/yanhaizhou21-a11y"><img src="https://img.shields.io/badge/GitHub-2b1a0f?style=for-the-badge&logo=github&logoColor=E8A33D"/></a>
+<a href="https://linkedin.com/in/yanhaizhou"><img src="https://img.shields.io/badge/LinkedIn-2b1a0f?style=for-the-badge&logo=linkedin&logoColor=E8A33D"/></a>
 
 </div>
+
+<br>
 
 <div align="center">
 

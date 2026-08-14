@@ -1,4 +1,4 @@
-name: Generate pacman animation
+name: Generate Pacman & Dune Sandworm Contribution Animation
 
 on:
   schedule:
@@ -15,16 +15,31 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: generate pacman-contribution-graph.svg
+      - name: Generate Pacman Contribution Graph
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-        # output file lands in 'dist' folder automatically
+          theme: github-dark
 
-      - name: push pacman-contribution-graph.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Generate Dune Sandworm Contribution Animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/sandworm-dune.svg?color_snake=#e8a33d&color_dots=#2b1a0f,#5a361e,#8c531b,#c17817,#e8a33d
+            dist/sandworm-dune-dark.svg?color_snake=#e8a33d&color_dots=#1e120b,#4a2c16,#8c531b,#c17817,#e8a33d
+            dist/sandworm-dune.gif?color_snake=#e8a33d&color_dots=#2b1a0f,#5a361e,#8c531b,#c17817,#e8a33d&color_background=#1a1009
+
+      - name: Prepare mirror paths for dist compatibility
+        run: |
+          mkdir -p dist/dist
+          cp dist/*.svg dist/*.gif dist/dist/ 2>/dev/null || true
+
+      - name: Push animations to output branch
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
