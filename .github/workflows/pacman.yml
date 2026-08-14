@@ -22,6 +22,7 @@ jobs:
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           theme: github-dark
 
       - name: Generate Dune Sandworm Contribution Animation
@@ -32,6 +33,8 @@ jobs:
             dist/sandworm-dune.svg?color_snake=#e8a33d&color_dots=#2b1a0f,#5a361e,#8c531b,#c17817,#e8a33d
             dist/sandworm-dune-dark.svg?color_snake=#e8a33d&color_dots=#1e120b,#4a2c16,#8c531b,#c17817,#e8a33d
             dist/sandworm-dune.gif?color_snake=#e8a33d&color_dots=#2b1a0f,#5a361e,#8c531b,#c17817,#e8a33d&color_background=#1a1009
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Prepare mirror paths for dist compatibility
         run: |
